@@ -74,6 +74,12 @@ This pattern alternates between a vertical and a horizontal line.
 
 The program validates dimensions and cell values and rejects missing or extra data.
 
+## Included example: Glider
+
+The included `board.txt` contains a glider on a 10 × 10 board. This five-cell pattern moves diagonally, returning to its original shape every four generations, shifted one row down and one column to the right.
+
+Set `USE_FILE_INPUT` to `1` and rebuild the program to load this example. Its behavior changes when it reaches the board’s edge, since cells outside the board are treated as dead.
+
 ## Controls
 
 During the simulation:
